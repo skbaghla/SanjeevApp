@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SanjeevApp</string>
+    <string name="login_using_linear_vertical_and_horizontal">Login using Linear Vertical and horizontal</string>
+    <string name="i_accept_terms_conditions"><![CDATA[I Accept terms & Conditions.]]></string>
+</resources>

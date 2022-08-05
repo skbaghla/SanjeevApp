@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module_7.MainActivity">
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="350px"
+        class="com.sanjeev.sanjeevapp.module_7.ListMenuFragment"
+        android:id="@+id/fragment"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.sanjeev.sanjeevapp.module_7.DetailsFragment"
+        android:id="@+id/fragment2"/>
+</LinearLayout>

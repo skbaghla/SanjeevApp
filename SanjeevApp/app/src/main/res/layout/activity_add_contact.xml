@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module_9.AddContactActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple_500"
+        android:layout_height="?actionBarSize">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Contact"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <!--Edit text to enter contact name-->
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/imgUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/user_image"
+        android:layout_height="100dp" />
+    <EditText
+        android:id="@+id/idEdtcontactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Name" />
+
+    <!--edit text to enter contact duration-->
+    <EditText
+        android:id="@+id/idEdtcontactTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Telephone number" />
+
+    <!--edit text to display contact tracks-->
+    <EditText
+        android:id="@+id/idEdtcontactEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:hint="Enter email" />
+
+    <!--edit text for contact description-->
+    <EditText
+        android:id="@+id/idEdtcontactAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter address" />
+
+    <!--button for adding new contact-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnAddcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Contact"
+        android:textAllCaps="false" />
+</LinearLayout>
